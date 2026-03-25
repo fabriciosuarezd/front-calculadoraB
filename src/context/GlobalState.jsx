@@ -52,7 +52,7 @@ export const GlobalProvider = ({children}) => {
             })
 
             dispatch({
-                type: 'DELETE_GASTOS',
+                type: 'DELETE_GASTO',
                 payload: id
             })
 
